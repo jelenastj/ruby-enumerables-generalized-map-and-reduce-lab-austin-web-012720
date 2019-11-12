@@ -15,9 +15,19 @@ end
 
 
 def reduce(source_array,starting_value=0)
-  value = starting_value
-  i = 0
+  if starting_value
+    value = starting_value
+    i = 0
+  else
+    value = source_array[0]
+    i=1 
+    
   while i < source_array.length do
+    value = yield(value, source_array)
+    i+=1 
+  end
+  value
+end
     
 
 
