@@ -11,7 +11,7 @@ def map(source_array)
   new_array
 end 
 
-def reduce(source_array,starting_value)
+def reduce(source_array,starting_value=0)
   sum = starting_point
   i = 0
   while i < source_array.length do
