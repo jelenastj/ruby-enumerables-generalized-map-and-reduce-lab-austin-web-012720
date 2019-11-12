@@ -10,7 +10,7 @@ def map(source_array)
   new_array
 end 
 
-def reduce(source_array,starting_value)
-   i = 0 
-    while i<source_array.length do
+# def reduce(source_array,starting_value)
+#   i = 0 
+#     while i<source_array.length do
 
