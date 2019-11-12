@@ -14,7 +14,7 @@ end
 
 
 
-def reduce(source_array,starting_value=0)
+def reduce(source_array,starting_value=nil)
   
   if starting_value
     value = starting_value
