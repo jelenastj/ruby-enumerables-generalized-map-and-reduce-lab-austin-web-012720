@@ -15,9 +15,11 @@ end
 
 
 def reduce(source_array,starting_value=0)
+  
   if starting_value
     value = starting_value
     i = 0
+    
   else
     value = source_array[0]
     i=1 
